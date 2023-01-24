@@ -40,7 +40,6 @@ int main()
             {    
                 mul[i][j]=0; 
  
-                // Multiplying i’th row with j’th column
                 for(int k=0;k<c1;k++)    
                 {    
                     mul[i][j]+=m1[i][k]*m2[k][j];    
