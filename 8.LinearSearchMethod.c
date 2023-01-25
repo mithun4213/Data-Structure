@@ -11,7 +11,7 @@ int main()
     scanf("%d",&search);
     for ( c = 0 ; c < number ; c++ )
     {
-        if ( array[c] == search )   /* if required element found */
+        if ( array[c] == search )   
         {
             printf("%d is present at location %d.\n", search, c+1);
             break;
